@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body
+{
+    background-color: #acd1d1;
+}
+
+.titleCard
+{
+    position:absolute;
+    background-color: white;
+    width:300px;
+    height:500px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 12%;
+    & .img
+    {
+        width: 85%;
+        transform:translate(9%,5%);
+        border-radius: 12%;
+    }
+    & .text
+    {
+        text-align: center;
+        padding:5%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+    }
+    .smallText
+    {
+        color: gray;
+        font-size: .7rem;
+    }
+}
